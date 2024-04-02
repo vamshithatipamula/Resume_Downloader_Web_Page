@@ -1,0 +1,425 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+::-webkit-scrollbar{
+    width: 0px;
+    background-color: rgb(31, 31, 31);
+}
+::-webkit-scrollbar-track{
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px rgb(226, 205, 205);
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(128, 107, 107);
+    border-radius: 8px;
+}
+.navbar{
+     /* background-color: rgb(27, 3, 106);
+      */
+     background-image: url(images/system-bars-hero.png); 
+    height: 90px;
+    /* border: 5px solid white;
+    border-radius: 35px; */
+    /* margin-bottom: 15px; */
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.nav-link{
+    color: rgb(243, 243, 243) !important;
+    margin-right: 30px;
+    margin-left: 25px;
+    font-weight: bold;
+    /* font-family: "Dangrek", sans-serif !important;    */
+}
+.nav-item{
+    border: 1px solid grey;
+    border-radius: 15px;
+    background-color: rgb(255, 140, 0);
+    margin-right: 45px;
+    /* padding-left: 50px; */
+}
+.nav-logo{
+    width: 140px;
+    height: 90px;
+    /* rotate: 5deg; */
+    /* mix-blend-mode: color-burn; */
+    background-color: rgb(251, 163, 0);
+    mix-blend-mode: darken;
+    margin-left: 30px;
+    /* border-radius: 10px; */
+}
+#logo-text{
+    margin-left: 0;
+    font-size: 40px;
+    color: rgb(70, 70, 110);
+    font-family: "Coiny", system-ui !important;
+    margin-top: 20px;
+}
+.intro{
+    height: 55vh;
+    margin-top: 10px;
+   
+   
+    
+    /* background-size: 100% 100%; */
+    /* filter: blur(1px);
+    -webkit-filter: blur(1px);  */
+    box-sizing: none;
+    
+   
+
+
+}
+.intoduction{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+  
+}
+#introtext{
+    color: rgb(255, 255, 255);
+    margin-top: 60px;
+    font-size: 60px;
+    text-shadow: 20px 20px rgb(138, 104, 61);
+    font-weight: 900;
+    
+    margin-left: 60px;
+}
+.urresumr{
+    font-size: 100px;
+    color:rgb(255, 255, 255);
+    text-shadow: 20px 20px rgb(138, 104, 61);
+    font-weight: 900;
+    font-size: 60px;
+    margin-left: 60px;
+}
+.into-text{
+    /* margin-top: 10%; */
+    width: 48%;
+    background-color: rgb(104, 76, 40);
+    border: 5px solid rgb(244, 248, 249);
+    font-size-adjust: 0.5 ;
+   
+    border-radius: 30px;
+    margin: 3PX;
+  margin-right: 10px;
+    height: 55vh;
+}
+.introimage{
+    height: 55vh;
+    width: 48%;
+    background-image: url(images/laptop-6349424_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 5px solid rgb(246, 248, 250);
+    border-radius: 30px;
+    background-color: rgb(104, 76, 40);
+    background-position: fixed;
+    text-align: center;
+    margin: 3PX;
+    margin-left: 10px;
+
+}
+#introimage{
+    width: 80vh;
+    height: 50vh;
+   
+
+}
+.categery{
+    margin-top: 80px;
+    margin-left: 20px;
+    /* font-family: "Dangrek", sans-serif !important; */
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     /* font-family: "Madimi One", sans-serif; */
+    font-size: 30px;
+    color: rgb(12, 51, 90);
+}
+.para{
+    margin-left: 60px;
+    font-size: 20px;
+    color: rgb(254, 254, 254);
+    font-family: "Dangrek", sans-serif;
+}
+/* #introsampleimage, #introsampleimage1,#introsampleimage2,#introsampleimage3{
+    height: 40vh;
+    width: 40%;
+    position: relative;
+    top: 50px;
+    left: 200px;
+
+}
+#introsampleimage{
+    z-index: 5;
+   
+}
+#introsampleimage1{
+    z-index: 4;
+    top: 50px;
+    left:-110px;
+    rotate: -10deg;
+}
+#introsampleimage2{
+    z-index: 4;
+    top: -240px;
+    left: 50px;
+    rotate: 10deg;
+} */
+.templet-section{
+    height: auto;
+    margin-top:10px;
+   
+     background-color: rgb(80, 80, 86);
+     
+     /* background-color: rgb(230, 236, 239); */
+    color: rgb(124, 113, 113) ;
+    /* background-image: url(images/solid-color-background-jh221lxis9yw728m.jpg); */
+  border-radius: 45px;
+  padding-top: 20px;
+  border: 15px solid white;
+  padding-bottom: 40px;
+  
+ 
+}
+.card-img-top{
+    height: 100%;
+    width: 100%;
+}
+.card{
+    height: 520px;
+    width: 400px !important;
+    transition: transform 0.7s;  
+    background-color: #CCD1D1;
+    box-shadow: 45px 45px 42px 45px rgba(137, 127, 127, 0.37);
+    /* backdrop-filter: blur( 3px ); */
+    /* -webkit-backdrop-filter: blur( 3px ); */
+    border: 8px solid rgb(217, 215, 215);
+
+}
+.card1,.card4{
+    margin-top: 40px;
+    
+    /* transition: transform .2s; */
+    /* transition-duration: 2s; */
+
+}
+.card2,.card3,.card5{
+    /* height: 200px; */
+    margin-left: 45px;
+ 
+margin-top: 40px;
+
+    
+}
+.card:hover{
+    transform: scale(0.9);
+}
+
+.templetes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+footer{
+    height: 19vh;
+    margin-top: px;
+    margin: 5px 0 5px 0;
+    
+    
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+  background-color: rgb(29, 35, 35);
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+    /* z-index: 1; */
+}
+.footer1,.footer2,.footer3{
+    width: 30%;
+    color: white;
+    height: 100%;
+    padding-top: 0px;
+    padding-bottom: 20px;
+
+}
+#Socialcontacts{
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+
+   .sentencepage{
+
+    height: 700px;
+   
+    /* margin-top: 60px; */
+    align-items: center;
+ 
+   
+
+    background-image: url(images/solid-color-background-jh221lxis9yw728m.jpg);
+
+
+   }
+   .sentencepage1{
+    height: 700px;
+   
+    /* margin-top: 60px; */
+    align-items: center;
+ 
+   
+
+    background-image: url(images/teacher-s-day-elements-composition.jpg);
+   }
+
+   .mainheading{
+    /* margin-top: 15px; */
+    color: rgb(114, 40, 40);
+    font-family: "Judson", serif;
+    text-align: center;
+    align-items: center;
+    /* height: 1500px; */
+    
+    
+  
+    font-size: 25px;
+    
+   }
+
+   #templatetext{
+    color: rgb(208, 202, 202) !important;
+    /* text-decoration: underline; */
+    text-decoration-style: wavy;
+    text-decoration-color:black ;
+  
+   }
+
+.rdpage{
+    text-align: center !important;
+    font-size: 15px;
+    width: 90%;
+    margin-left: 55px;
+    margin-top: 50px;
+   }
+
+   .thirdscreen{
+    height: auto;
+    padding: 10px;
+    padding-bottom: 20px;
+   }
+   .thirdscr{
+    
+    /* width: 500px; */
+    height: auto;
+    border: 5px solid white;
+    border-radius: 35px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+     background-color: rgb(184, 103, 103); 
+     
+    /* background-image: url(images/teacher-s-day-elements-composition.jpg); */
+    
+   }
+
+   .proffesionresume,.nonitresume,.fresherresume{
+   
+    height: 600px;
+    margin-left: 25px;
+    margin-top: 80px;
+        padding: 20px;
+    width: 420px;
+    border: 5px solid rgb(252, 252, 252);
+    border-radius: 45px;
+    /* border: rgb(93, 67, 67); */
+
+    
+       }
+
+       .textfen{
+color: rgb(224, 211, 214);
+
+       }
+
+@media screen and (max-width:1200px) {
+    .introimage{
+        display: none;
+    }
+    .into-text{
+        width: 98%;
+        height: auto;
+        padding-bottom: 50px;
+    }
+    #introtext{
+        font-size: 60px;
+        text-shadow: 20px 20px rgb(138, 104, 61);
+        font-weight: 900;
+    }
+    .card4{
+        margin-left: 45px;
+    }
+}     
+@media screen and (max-width:597px) {
+    #introtext,.urresumr,#para{
+        font-size: 40px;
+        text-shadow: 20px 20px rgb(138, 104, 61);
+        font-weight: 900;
+    }
+    .container-fluid{
+        justify-content: start !important;
+        margin-left: auto;
+    }
+    .nav-logo{
+       
+        margin-left:0px;
+        /* border-radius: 10px; */
+    }
+    #logo-text{
+        margin-left: 0;
+        font-size: 30px;
+       
+    }
+    .templet-section{
+        /* width: 100% !important;
+         */
+         border: 0;
+         border-radius: 10px;
+        }
+        .card2,.card3,.card4,.card5,.card6{
+            margin-left: 0;
+        }
+        
+}
+@media screen and (max-width:443px) {
+    .card2,.card3,.card4,.card5,.card6{
+        margin-left: 0;
+    }
+    .nav-logo{
+     height: 80px;  
+     width: 110px;
+        /* margin-left:0px; */
+        /* border-radius: 10px; */
+    }
+    .templetes{
+        /* width: 95%; */
+        text-align: center;
+        justify-content: center;
+    }
+    .thirdscreen{
+        border: 0;
+    }
+    .fresherresume,.proffesionresume,.nonitresume{
+        height: auto;
+        margin-left: 0;
+    }
+  footer{
+    height: auto;
+  }
+
+}
